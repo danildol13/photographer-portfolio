@@ -1,0 +1,75 @@
+.hero {
+  background-image: url("/src/assets/images/kristian-angelo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hero_inside_container_left {
+  width: 50%;
+}
+
+.hero_inside_container_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+
+.hero_content {
+  max-width: 640px;
+}
+
+.hero_title {
+  font-family: 'Rozha One', sans-serif;
+  font-weight: 400;
+  font-size: 112px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero_description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.hero_button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+
+  border: 1px solid #fff;
+  padding: 25px 40px;
+
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.hero_button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.hero_button::after {
+  content: "→";
+  letter-spacing: normal;
+  margin-left: 12px;
+}

@@ -1,0 +1,41 @@
+.container{
+    padding: 164px 0;
+}
+
+.skill_list{
+    display: flex;
+
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.text_list{
+    display: flex;
+        justify-content: space-around;
+}
+
+.section{
+    margin: 0 auto;
+}
+
+.value{
+font-family: Oswald, sans-serif;
+    font-weight: 400;
+    font-size: 78px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.text{
+    padding-top: 106px;
+    font-family: Oswald;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 187%;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}

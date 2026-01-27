@@ -1,0 +1,69 @@
+.container {
+display: flex;
+padding: 160px 0;
+}
+
+.container :global(.swiper-wrapper) {
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quote {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 150px;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #111;
+  padding-bottom: 50px;
+}
+
+.wrapper {
+
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--main-family);
+  font-size: 16px;
+}
+
+.name{
+    font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 180%;
+        text-transform: capitalize;
+        color: #111;
+}
+
+
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content{
+    max-width: 1000px;
+}
+
