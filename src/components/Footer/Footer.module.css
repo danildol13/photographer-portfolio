@@ -1,0 +1,114 @@
+.footerSection {
+  background: #141414;
+}
+
+.footerContainer {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 156px;
+  padding-top: 156px;
+}
+
+.footerList {
+  display: grid;
+  grid-template-columns: 29% 15% 20% 25%;
+  gap: 20px;
+  list-style: none;
+}
+
+.footerList li:nth-child(n+2) h3 {
+  margin-bottom: 22px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.footerList li h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.contactItem{
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+  fill: #dbdbdb;
+}
+
+.category {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 223%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #dbdbdb;
+}
+
+.category:hover {
+  color: #fff;
+}
+.schedule {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 223%;
+  letter-spacing: 0.02em;
+  color: #dbdbdb;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.newsContainer li:nth-child(2){
+    border-bottom: 1px solid #dbdbdb;
+    width: 310px;
+    padding-bottom: 7px;
+}
+
+.contactData {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #dbdbdb;
+}
+
+.newsInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailInput {
+  all: unset;
+  color: white;
+}
+
+
+
+.description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 187%;
+  letter-spacing: 0.02em;
+  color: #dbdbdb;
+}

@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 600px;
+  margin-bottom: 70px;
+}
+
+.inputText {
+  all: unset;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.inputText::placeholder {
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #a6a4a4;
+}
+
+.submitButton {
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+
+  background: #111;
+  width: 140px;
+  height: 55px;
+}

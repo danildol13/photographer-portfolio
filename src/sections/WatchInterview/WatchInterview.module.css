@@ -1,0 +1,62 @@
+.innerContent {
+  background-image: url("/public//images/Rectangle47.png");
+  height: 812px;
+  background-position: center;
+  background-size: cover;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.title {
+  font-family:
+    Rozha One,
+    sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #fff;
+  max-width: 885px;
+  margin-bottom: 34px;
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  outline: 1px solid rgb(255, 255, 255, 0.8);
+  outline-offset: 8px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonText {
+  font-family: Osaka, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}

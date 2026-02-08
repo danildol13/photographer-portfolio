@@ -1,0 +1,109 @@
+
+.sectionContainer {
+  background: #f9f9f9;
+}
+
+.wholeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: end;
+  gap: 60px;
+  padding-bottom: 153px;
+  padding-top: 153px;
+  max-width: 1300px;
+    margin: 0 auto;
+}
+
+.infoList {
+  display: flex;
+  gap: 28px;
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 104%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 75px;
+  max-width: 500px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 13px;
+}
+
+.contactItem {
+  display: flex;
+  gap: 10px;
+}
+
+.office {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 187%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 11px;
+}
+
+.description {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 187%;
+  letter-spacing: 0.02em;
+  color: #333;
+  margin-bottom: 23px;
+}
+
+.street {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.phoneNumber {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.mail {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.location {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #111;
+  position: relative;
+    margin-top: 22px;
+}
+
+.location::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 106px;
+  background-color: black;
+}
