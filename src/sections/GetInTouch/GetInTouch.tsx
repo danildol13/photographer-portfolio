@@ -22,7 +22,7 @@ export default function GetInTouch() {
                   <address className={css.contactInfo}>
                     <p className={css.contactItem}>
                       <svg height={15} width={15}>
-                        <use href="../../../public/images/info-icons/infoSpride.svg#icon-location"></use>
+                        <use href="/images/info-icons/infoSpride.svg#icon-location"></use>
                       </svg>
                       <span className={css.street}>
                         784 Norman Street, Los Angeles
@@ -30,7 +30,7 @@ export default function GetInTouch() {
                     </p>
                     <p className={css.contactItem}>
                       <svg height={15} width={15}>
-                        <use href="../../../public/images/info-icons/infoSpride.svg#icon-phone"></use>
+                        <use href="/images/info-icons/infoSpride.svg#icon-phone"></use>
                       </svg>
                       <a href="tel:+49 93 30493943" className={css.phoneNumber}>
                         +49 93 30493943
@@ -38,7 +38,7 @@ export default function GetInTouch() {
                     </p>
                     <p className={css.contactItem}>
                       <svg height={15} width={15}>
-                        <use href="../../../public/images/info-icons/infoSpride.svg#icon-letter"></use>
+                        <use href="/images/info-icons/infoSpride.svg#icon-letter"></use>
                       </svg>
                       <a
                         href="mailto:contact@templatesjungle.com"

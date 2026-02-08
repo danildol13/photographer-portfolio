@@ -1,4 +1,4 @@
-export const footerData = {
+export const allData = {
   titles: [
     { id: "title-about", title: "ABOUT VOID TATTOO" },
     { id: "title-links", title: "USEFUL LINKS" },
