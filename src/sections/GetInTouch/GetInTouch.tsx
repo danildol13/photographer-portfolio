@@ -6,6 +6,7 @@ export default function GetInTouch() {
   const handleSubmit = (data: string) => {
     console.log(data);
   };
+  
   return (
     <section className={css.sectionContainer}>
       <div className={`${css.wholeContainer}`}>
