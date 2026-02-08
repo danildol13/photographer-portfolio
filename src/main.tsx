@@ -1,9 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.module.css";
 import App from "./components/App/App.tsx";
 import { BrowserRouter } from "react-router-dom";
 import "modern-normalize";
+import "./index.css";
+
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

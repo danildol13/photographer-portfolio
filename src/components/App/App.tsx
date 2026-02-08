@@ -10,6 +10,7 @@ import Skills from "../../sections/Skills/Skills.tsx";
 import WatchInterview from "../../sections/WatchInterview/WatchInterview.tsx";
 import Footer from "../Footer/Footer.tsx";
 
+
 function App() {
   return (
     <>
